@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  position: relative;  
+}
+
+:root{
+  --body-font:"Arial"
+}
+.form_bg {
+  /* background: rgb(105, 102, 147);
+  background: linear-gradient(
+    124deg,
+    rgba(105, 102, 147, 1) 6%,
+    rgba(87, 81, 199, 1) 27%,
+    rgba(82, 105, 185, 1) 40%,
+    rgba(108, 111, 182, 1) 58%,
+    rgba(112, 64, 223, 1) 72%,
+    rgba(77, 38, 184, 1) 84%,
+    rgba(50, 22, 128, 1) 93%
+  ); */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(20rem);
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  left: 0;  
+  z-index: -1;
+}
